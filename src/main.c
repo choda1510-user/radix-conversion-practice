@@ -1,7 +1,8 @@
 #include <stdio.h>
+#include "func.h"
 
 int main(int argc, char *argv[])
 {
-    printf("Hello, World!\n");
+    print_menu();
     return 0;
 }
